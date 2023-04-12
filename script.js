@@ -84,7 +84,7 @@ console.log(firstName + ' ' + lastName);
 let x = 10 + 5; // 15
 x += 10; // x = x + 10 = 25
 x *= 4; // x=x*4 = 100
-x++; //x=x+1 
+x++; //x=x+1
 x--;
 x--;
 console.log(x);
@@ -117,20 +117,20 @@ console.log(x, y);
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);*/
 /*
-Mark and John are trying to compare their BMI (Body Mass Index), which is 
+Mark and John are trying to compare their BMI (Body Mass Index), which is
 calculated using the formula:
-BMI = mass / height ** 2 = mass / (height * height) (mass in kg 
+BMI = mass / height ** 2 = mass / (height * height) (mass in kg
 and height in meter).
 Your tasks:
 1. Store Mark's and John's mass and height in variables
-2. Calculate both their BMIs using the formula (you can even implement both 
+2. Calculate both their BMIs using the formula (you can even implement both
 versions)
-3. Create a Boolean variable 'markHigherBMI' containing information about 
+3. Create a Boolean variable 'markHigherBMI' containing information about
 whether Mark has a higher BMI than John.
 Test data:
-§ Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 
+§ Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95
 m tall.
-§ Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 
+§ Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
 m tall.
 GOOD LUCK �*/
 
@@ -145,8 +145,7 @@ const BMIMark = massMark / heightMark ** 2;
 const BMIJohn = massJohn / (heightJohn * heightJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn, markHigherBMI);
-console.log("Mark's BMI is higher than John's!");
-console.log("Mark's BMI 27.3 is higher than John's 24.19!");*/
+
 
 /*const firstName = 'Jonas';
 const job = 'teacher';
@@ -194,3 +193,53 @@ if (birthYear <= 2000) {
 console.log(century);*/
 
 
+/*Use the BMI example from Challenge #1, and the code you already wrote, and
+improve it.
+Your tasks:
+1. Print a nice output to the console, saying who has the higher BMI. The message
+is either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's
+BMI (28.3) is higher than John's (23.9)!"
+Hint: Use an if/else statement */
+
+//const massMark = 95;
+//const heightMark = 1.88;
+//const massJohn = 85;
+//const heightJohn = 1.76;
+
+/*const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn;
+console.log(BMIMark, BMIJohn);
+if (BMIMark > BMIJohn) {
+    console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+} else {
+    console.log("John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!");
+}*/
+
+//Type Conversion 
+/*const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number('Jonas'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//Type Coercion
+
+console.log(`I'm ` + 23 + ` years old `);
+console.log('23' - '10' - 3);
+console.log('23' + '10' + 3);
+console.log('23' * '2');
+
+
+let n = '1' + 1; //11
+n = n - 1 // 11-1
+console.log(n); // 10*/

@@ -43,4 +43,4 @@ const description = `${country} is in ${continent}, and its
  console.log(`You should live in ${country} :)`);
  } else {
  console.log(`${country} does not meet your criteria :(`);
- }*?
+ }*/

@@ -1,4 +1,4 @@
-let country = 'Portugal';
+/*let country = 'Portugal';
 let continent = 'Europe';
 let population = 10;
 console.log(country);
@@ -16,4 +16,4 @@ language = 'portuguese';
 const country = 'Portugal';
 const continent = 'Europe';
 const isIsland = false;
-isIsland = true;
+isIsland = true;*/

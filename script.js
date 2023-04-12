@@ -134,7 +134,7 @@ m tall.
 m tall.
 GOOD LUCK �*/
 
-const massMark = 78;
+/*const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
 const heightJohn = 1.95;
@@ -146,7 +146,29 @@ const BMIJohn = massJohn / (heightJohn * heightJohn);
 const markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn, markHigherBMI);
 console.log("Mark's BMI is higher than John's!");
-console.log("Mark's BMI 27.3 is higher than John's 24.19!");
+console.log("Mark's BMI 27.3 is higher than John's 24.19!");*/
+
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + '!';
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job} !`;
+console.log(jonasNew);
+
+
+console.log(`Just a regular string ...`);
+
+console.log('String with \n\
+multiple \n\
+linest`);
+
+console.log(`String
+multiple
+lines`)
 
 
 

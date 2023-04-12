@@ -148,7 +148,7 @@ console.log(BMIMark, BMIJohn, markHigherBMI);
 console.log("Mark's BMI is higher than John's!");
 console.log("Mark's BMI 27.3 is higher than John's 24.19!");*/
 
-const firstName = 'Jonas';
+/*const firstName = 'Jonas';
 const job = 'teacher';
 const birthYear = 1991;
 const year = 2037;
@@ -168,8 +168,29 @@ linest`);
 
 console.log(`String
 multiple
-lines`)
+lines`)*/
 
 
+
+/*const age = 15;
+
+
+if (age >= 18) {
+    console.log('Sarah cand start driving license ');
+
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young.Wait another ${yearsLeft} years`);
+}
+
+const birthYear = 2012;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+
+console.log(century);*/
 
 

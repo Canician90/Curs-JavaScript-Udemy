@@ -222,7 +222,7 @@ if (BMIMark > BMIJohn) {
     console.log("John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!");
 }*/
 
-//Type Conversion 
+//Type Conversion
 /*const inputYear = '1991';
 console.log(Number(inputYear), inputYear);
 console.log(Number(inputYear) + 18);
@@ -243,3 +243,120 @@ console.log('23' * '2');
 let n = '1' + 1; //11
 n = n - 1 // 11-1
 console.log(n); // 10*/
+
+// 5 falsy values : 0, '', undefined, null, NaN
+
+/*console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jonas'));
+console.log(Boolean({}));
+console.log(Boolean(''));
+
+const money = 0;
+if (money) {
+    console.log("Don't spend it all;");
+} else {
+    console.log('You should get a job!');
+}
+
+let height;
+if (height) {
+    console.log('Height is defined');
+} else {
+    console.log('Height is UNDEFINED');
+}*/
+
+//Equality Operatos : == vs. ===
+/*const age = '18';
+if (age === 18) console.log('You just became an adult (strict)');
+
+if (age == 18) console.log('You just became an adult (loose)');
+
+
+const favourite = Number(prompt("Whts your favorite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+// '23'==23 or 23 ===23
+if (favourite === 23) {
+    console.log('23 is an amazing number!');
+} else if (favourite === 7) {
+    console.log('7 is also a cool number');
+} else if (favourite === 9) {
+    console.log('9 is also a cool number');
+} else {
+    console.log('Number is not 23 or 7');
+}
+
+if (favourite !== 23) console.log('Why not 23!');*/
+
+
+/*const hasDriversLicense = true; //A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision); // && and
+console.log(hasDriversLicense || hasGoodVision); // || or
+console.log(!hasDriversLicense);
+
+
+
+const isTired = false; //c
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log('Sarah is able to drive!');
+} else {
+    console.log('Someone else should drive ...');
+}*/
+
+///de revazut video logical operatos
+
+
+/*There are two gymnastics teams, Dolphins and Koalas. They compete against each
+other 3 times. The winner with the highest average score wins a trophy!
+Your tasks:
+1. Calculate the average score for each team, using the test data below
+2. Compare the team's average scores to determine the winner of the competition,
+and print it to the console. Don't forget that there can be a draw, so test for that
+as well (draw means they have the same average score)
+3. Bonus 1: Include a requirement for a minimum score of 100. With this rule, a
+team only wins if it has a higher score than the other team, and the same time a
+score of at least 100 points. Hint: Use a logical operator to test for minimum
+score, as well as multiple else-if blocks �
+4. Bonus 2: Minimum score also applies to a draw! So a draw only happens when
+both teams have the same score and both have a score greater or equal 100
+points. Otherwise, no team wins the trophy
+Test data:
+§ Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
+§ Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
+§ Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106*/
+
+
+
+//const scoreDolphins = (96 + 108 + 89) / 3;
+//const scoreKoals = (88 + 91 + 110) / 3;
+//console.log(scoreDolphins, scoreKoals);
+
+//if (scoreDolphins > scoreKoals) {
+//    console.log('Dolphins win the trophy!');
+//} else if (scoreKoals > scoreDolphins) {
+//   console.log('Koalas win the trophy!');
+//} else if (scoreDolphins === scoreKoals) {
+//    console.log('Both win the trophy!');
+//}
+
+// bonus 1
+
+/*const scoreDolphins = (97 + 112 + 80) / 3;
+const scoreKoals = (109 + 95 + 50) / 3;
+console.log(scoreDolphins, scoreKoals);
+
+if (scoreDolphins > scoreKoals && scoreDolphins >= 100) {
+    console.log('Dolphins win the trophy!');
+} else if (scoreKoals > scoreDolphins && scoreKoals >= 100) {
+    console.log('Koalas win the trophy!');
+} else if (scoreDolphins === scoreKoals && scoreDolphins >= 100 && scoreKoals >= 100) {
+    console.log('Both win the trophy!');
+} else {
+    console.log('No one wins the trophy');
+}*/
